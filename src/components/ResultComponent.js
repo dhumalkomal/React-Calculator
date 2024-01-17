@@ -5,7 +5,9 @@ class ResultComponent extends Component {
       let { result } = this.props;
     return (
       <div className='result' >
-        <p>{ result }</p>
+        <form>
+          <input type='text' value={result} />
+        </form>
       </div>
     )
    }
