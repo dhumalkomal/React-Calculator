@@ -7,7 +7,7 @@ class KeyPadComponent extends Component {
            
         <button className='highlight'  id="clear" name='AC' onClick={e => this.props.onClick(e.target.name)}>clear</button>
         <button className='highlight' id='backspace' name='Delete' onClick={e => this.props.onClick(e.target.name)}>C</button>
-        <button className='highlight' name='/' onClick={e => this.props.onClick(e.target.name)}>%</button>
+        <button className='highlight' name='/' onClick={e => this.props.onClick(e.target.name)}>/</button>
 
         <button name="7" onClick={e => this.props.onClick(e.target.name)}>7</button>
         <button name="8" onClick={e => this.props.onClick(e.target.name)}>8</button>
